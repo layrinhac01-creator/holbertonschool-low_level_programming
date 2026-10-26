@@ -1,5 +1,2 @@
-wc -l 1-compiler
-chmod u+x 1-compiler
-export CFILE=main.c
-./1-compiler
-ls
+#!/bin/bash
+gcc -c "$CFILE" -o "${CFILE%.c}.o"
