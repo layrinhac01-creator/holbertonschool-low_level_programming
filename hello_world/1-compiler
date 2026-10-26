@@ -1,0 +1,5 @@
+wc -l 1-compiler
+chmod u+x 1-compiler
+export CFILE=main.c
+./1-compiler
+ls
